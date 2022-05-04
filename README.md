@@ -78,23 +78,23 @@ Exécuter : `ng serve`, Url `http://localhost:4200/`
 - Choose a prebuilt theme name, or "custom" for a custom theme: `Custom`
 - Set up global Angular Material typography styles? `Yes`
 - Set up browser animations for Angular Material? `Yes`
-#### Mise en Place du [Module Material Angular](https://github.com/lmlouis/pfaAngular/blob/materialAngular/src/app/material/material.module.ts)
+#### Mise en Place du [Module Material Angular](https://github.com/lmlouis/pfaAngular/blob/src/app/material/material.module.ts)
 - Exécuter : `ng g m material`
-- voir [material.module.ts](https://github.com/lmlouis/pfaAngular/blob/materialAngular/src/app/material/material.module.ts)
-- import MaterialModule dans [appModule](https://github.com/lmlouis/pfaAngular/blob/materialAngular/src/app/app.module.ts)
+- voir [material.module.ts](https://github.com/lmlouis/pfaAngular/blob/src/app/material/material.module.ts)
+- import MaterialModule dans [appModule](https://github.com/lmlouis/pfaAngular/blob/src/app/app.module.ts)
 #### Création du theme customisé
 - Exécuter : `touch src/app/material/custom-theme.scss`
-- voir [matérial](https://github.com/lmlouis/pfaAngular/tree/materialAngular/src/app/material)
-- ajouter le theme dans le  [style.scss](https://github.com/lmlouis/pfaAngular/blob/materialAngular/src/styles.scss)
-- ajouter le classe mode lightMode dans [l'indexe.html](https://github.com/lmlouis/pfaAngular/blob/materialAngular/src/styles.scss)
+- voir [matérial](https://github.com/lmlouis/pfaAngular/src/app/material)
+- ajouter le theme dans le  [style.scss](https://github.com/lmlouis/pfaAngular/blob/src/styles.scss)
+- ajouter le classe mode lightMode dans [l'indexe.html](https://github.com/lmlouis/pfaAngular/blob/src/styles.scss)
 - ajouter dans angular.json => styles : `"./src/app/material/custom-theme.scss",`
 
 ### Mise en place de Firebase 
 #### installation de firebase 
 - Exécuter : `npm install firebase @angular/fire`
 - Exécuter : `ng g m firebase`
-- configuation firebase dans [environments/environment.ts](https://github.com/lmlouis/pfaAngular/blob/firebase/src/environments/environment.ts)
-- voir le [firebsase](https://github.com/lmlouis/pfaAngular/tree/firebase/src/app/firebase)
+- configuation firebase dans [environments/environment.ts](https://github.com/lmlouis/pfaAngular/blob/src/environments/environment.ts)
+- voir le [firebsase](https://github.com/lmlouis/pfaAngular/blob/src/app/firebase)
 
 
 
