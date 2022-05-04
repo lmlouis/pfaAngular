@@ -1,0 +1,46 @@
+<mat-toolbar color="primary" class="lemenu">
+<div>
+  <span class="logo">Communauté PME </span>
+</div>
+  <div>
+    <span>
+      <button mat-icon-button color="accent" aria-label="Example icon button with a home icon">
+         <mat-icon>home</mat-icon>
+      </button> Acceuil
+    </span>
+    <span>
+      <button mat-icon-button color="accent" aria-label="Example icon button with a home icon">
+         <mat-icon>group</mat-icon>
+      </button> Communautés
+    </span>
+    <span>
+      <button mat-icon-button color="accent" aria-label="Example icon button with a home icon">
+         <mat-icon>business_center</mat-icon>
+      </button> Entreprises
+    </span>
+    <span>
+      <button mat-icon-button color="accent" aria-label="Example icon button with a home icon">
+         <mat-icon>account_circle</mat-icon>
+      </button> Profile
+    </span>
+
+  </div>
+</mat-toolbar>
+
+
+<mat-sidenav-container>
+  <mat-sidenav mode="side" [(opened)]="ouvert">
+    <div class="mode-bouton container">
+    <!--Mode sombre / clair -->
+    <material-module></material-module>
+    </div>
+  </mat-sidenav>
+  <mat-sidenav-content>
+    <button (click)="ouvert=!ouvert" color="primary" mat-mini-fab>
+      <mat-icon>menu</mat-icon>
+    </button>
+
+
+
+  </mat-sidenav-content>
+</mat-sidenav-container>

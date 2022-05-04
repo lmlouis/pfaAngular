@@ -98,6 +98,9 @@ Exécuter : `ng serve`, Url `http://localhost:4200/`
 
 
 
+### navigation
+- Exécuter : `ng g c navigation`
+
 
 ## Code scaffolding
 
